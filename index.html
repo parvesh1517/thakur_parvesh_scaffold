@@ -3,45 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
-    <title>Responsive Grid</title>
+    <title>Responsive Grid Layout</title>
 </head>
 <body>
     <header class="grid-con">
-        <h1 class="hidden">Header</h1>
-        <div draggable="true" id="logo" class="box col-start-1 col-end-4 m-col-start-1 m-col-end-2 l-col-start-1 l-col-end-3">Logo</div>
-        <div id="menu" class="box col-start-4 col-end-5 m-col-start-2 m-col-end-13 l-col-start-3 l-col-end-13">Nav</div>
+        <div draggable="true" id="logo" class="section_bx col-start-1 col-end-4 m-col-start-1 m-col-end-2 l-col-start-1 l-col-end-3">Logo</div>
+        <div id="menu" class="section_bx col-start-4 col-end-5 m-col-start-2 m-col-end-13 l-col-start-3 l-col-end-13">Menu</div>
     </header>
     <main>
-   <section class="grid-con">
-   <h2 class="hidden">Hero-image</h2>
-   <div id="hero-image" class="box col-span-full col-start-1 col-end-5 m-col-span-full l-col-span-full">Hero Image</div>
-    </section>
-    <section class="grid-con">
-     <h2 class="hidden">Products</h2>
-            <div id="product1" class="box col-span-full col-start-1 col-end-5 m-col-start-1 m-col-end-6 l-col-start-1 l-col-end-6">Product 1</div>
-            <div id="product2" class="box col-span-full col-start-1 col-end-5 m-col-start-6 m-col-end-13 l-col-start-6 l-col-end-13">Product 2</div>
+        <section class="grid-con">
+            <div id="hero-image" class="section_bx col-span-full col-start-1 col-end-5 m-col-span-full l-col-span-full">Hero Image</div>
         </section>
         <section class="grid-con">
-            <h2 class="hidden">Services</h2>
-            <div id="service1" class="box col-span-full col-start-1 col-end-3 m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-4">Service 1</div>
-            <div id="service2" class="box col-span-full col-start-3 col-end-5 m-col-start-5 m-col-end-9 l-col-start-4 l-col-end-7">Service 2</div>
-            <div id="service3" class="box col-span-full col-start-1 col-end-3 m-col-start-9 m-col-end-13 l-col-start-7 l-col-end-10">Service 3</div>
-            <div id="service4" class="box col-span-full col-start-3 col-end-5 m-col-start-1 m-col-end-5 l-col-start-10 l-col-end-13">Service 4</div>
-            <div id="service5" class="box col-span-full col-start-1 col-end-3 m-col-start-5 m-col-end-9 l-col-start-1 l-col-end-4">Service 5</div>
+    <div id="product1" class="section_bx col-start-1 col-end-3 m-col-start-1 m-col-end-7 l-col-start-1 l-col-end-7">Product 1</div>
+    <div id="product2" class="section_bx col-start-3 col-end-5 m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-13">Product 2</div>
+</section>
+        <section class="grid-con">
+            <div id="service1" class="section_bx col-span-full col-start-1 col-end-3 m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-4">Service 1</div>
+            <div id="service2" class="section_bx col-span-full col-start-3 col-end-5 m-col-start-5 m-col-end-9 l-col-start-4 l-col-end-7">Service 2</div>
+            <div id="service3" class="section_bx col-span-full col-start-1 col-end-3 m-col-start-9 m-col-end-13 l-col-start-7 l-col-end-10">Service 3</div>
+            <div id="service4" class="section_bx col-span-full col-start-3 col-end-5 m-col-start-1 m-col-end-5 l-col-start-10 l-col-end-13">Service 4</div>
+            <div id="service5" class="section_bx col-span-full col-start-1 col-end-3 m-col-start-5 m-col-end-9 l-col-start-1 l-col-end-4">Service 5</div>
             <div id="image" class="l-col-start-4 l-col-end-10">Image</div>
-            <div id="service6" class="box col-span-full col-start-3 col-end-5 m-col-start-9 m-col-end-13 l-col-start-10 l-col-end-13">Service 6</div>
+            <div id="service6" class="section_bx col-span-full col-start-3 col-end-5 m-col-start-9 m-col-end-13 l-col-start-10 l-col-end-13">Service 6</div>
         </section>
     </main>
     <footer class="grid-con">
-        <h2 class="hidden">Footer</h2>
-        <div id="footer" class="box col-span-full col-start-1 col-end-5 m-col-span-full l-con-span-full">Footer</div>
-    </footer>
-
-    <script src="js/main.js"></script>  
+        <div id="footer" class="section_bx col-span-full col-start-1 col-end-5 m-col-span-full l-con-span-full">Footer</div>
+    </footer> 
 </body>
 </html>
